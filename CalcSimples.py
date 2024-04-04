@@ -6,19 +6,19 @@ for i in valor:
              n1, op, n2 = valor.partition(j)
              match op:
                  case "+":
-                     soma = int(n1) + int(n2)
+                     soma = float(n1) + float(n2)
                      print(soma)
                      break 
                  case "-":
-                     sub = int(n1) - int(n2)
+                     sub = float(n1) - float(n2)
                      print(sub)
                      break
                  case "*":
-                     mul = int(n1) * int(n2)
+                     mul = float(n1) * float(n2)
                      print(mul)
                      break
                  case "/":
-                     div = int(n1) / int(n2)
+                     div = float(n1) / float(n2)
                      print(div)
                      break
                      
